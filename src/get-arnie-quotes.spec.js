@@ -25,6 +25,7 @@ test('responses to be correct', async () => {
   expect(results[3]).toEqual({ 'FAILURE': 'Your request has been terminated' });
 });
 
+
 test('code to be executed in less than 400ms', async () => {
   expect.assertions(2);
 
